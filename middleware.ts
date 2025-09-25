@@ -31,5 +31,5 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
 	matcher: ['/dashboard', '/auth/register', '/auth/login'],
-	runtime: 'edge'
+	runtime: 'experimental-edge'
 }
